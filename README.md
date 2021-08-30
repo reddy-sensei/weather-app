@@ -1,3 +1,7 @@
+# Getting API KEYS
+
+you'll need openweather Api Key and Unsplash Api key; you can get those from thier respective websites;  place those keys in place of "API_KEY" in app.js file.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
