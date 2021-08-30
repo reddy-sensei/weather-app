@@ -16,7 +16,7 @@ function App() {
 
   function handleClick() {
     fetch(
-      `https://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=53aa5997b8c334c84b37ff21c1dfc21f&units=metric`
+      `https://api.openweathermap.org/data/2.5/weather?q=${city}&APPID={API_KEY}&units=metric`
     )
       .then((res) => {
         if (res.ok) {
@@ -39,7 +39,7 @@ function App() {
       })
       .catch((error) => console.log(error));
     fetch(
-      `https://api.unsplash.com/search/photos?query=${city}&client_id=NPOwl1cNdAVzljXPhwHqtH2S5vN7OtNi91G3QdiT6kU`
+      `https://api.unsplash.com/search/photos?query=${city}&client_id={unspashAPI_KEY}`
     )
       .then((res) => {
         if (res.ok) {
